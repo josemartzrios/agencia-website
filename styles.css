@@ -1,0 +1,794 @@
+*{
+    /* DELGADA: font-family: 'Barlow', sans-serif; */
+    /* GRUESA: font-family: 'Fraunces', serif; */
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+/* PRIMERA SECCIÓN */
+
+#firstSection{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    margin: 0 auto;
+    width: 100%;
+    height: 740px;
+    
+    background: #00B3FF;
+    /* background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;     */
+}
+
+h3{
+    font-family: 'Fraunces', 'serif';
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.orangeImg{
+    width: 100%;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.logoName{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    
+}
+
+.namePage{
+    margin: 25px;
+    color: whitesmoke;
+    font-family: 'Fraunces', 'serif';
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+
+.title{
+    display: grid;
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+@keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}
+  
+
+.title h2{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Fraunces', 'serif';
+    color: whitesmoke;
+    font-size: 3em;
+
+    margin-left: 40px;
+    height: 100px;
+    
+}
+
+#down{
+    display: flex;
+    justify-self: center;
+    
+    margin-bottom: 200px;
+    height: 100px;
+    cursor: pointer;
+    
+}
+
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    
+    list-style: none;
+    color: whitesmoke;
+    margin-top: 1em;
+    
+    
+}
+
+.menu ul li{
+    display: flex;
+    padding: 10px; 
+    padding-left: 20px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+    cursor: pointer;
+}
+
+/* .menu ul li:hover{
+    background: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    height: 20px;
+    padding: 10px;
+} */
+
+
+/* ROCKECT SECTION */
+
+#secondSection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 370px;
+}
+
+.rocketSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+#learnMore{
+    font-family: 'Fraunces', 'serif';
+    text-decoration: underline yellow;
+}
+
+#learnMoreRed{
+    font-family: 'Fraunces', 'serif';
+    text-decoration: underline red;
+}
+
+.rocketBox{
+    display: flex;
+    background: #F5EE31;
+}
+
+/* ICONO */
+.lnr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.lnr-rocket{
+    display: flex;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+/* WORLD SECTION */
+
+#thirdSection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 370px;
+}
+
+.worldBox{
+    display: flex;
+    background: #FF636B;
+
+}
+
+/* ICONO */
+.lnr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.lnr-earth{
+    display: flex;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 40px;
+    
+}
+
+.audienciaBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audienciaText h3{
+    font-family: 'Fraunces', 'serif';
+    
+}
+
+.audienciaText p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* DISEÑO Y FOTO */
+
+#fourthSection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 370px;
+}
+
+.diseñoBox{
+    display: grid;
+    background: #64DEB5;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+   
+} 
+
+.fotoBox{
+    display: grid;
+    background: #3B96FF;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+   
+} 
+
+.diseñoText,
+.fotoText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1em;
+}
+
+.diseñoText{
+    color: #027A6A;
+}
+
+.fotoText{
+    color: #003470;
+}
+
+.diseñoBox h3,
+.fotoBox h3{
+    font-family: 'Fraunces', 'serif';
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.diseñoBox p,
+.fotoBox p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+
+}
+
+.iconBox{
+    display: flex;
+}
+
+.lnr-highlight,
+.lnr-picture{ 
+    margin-top: 25px;
+
+}
+
+.lnr{
+    fill: currentColor;
+}
+
+.lnr-highlight{
+    color: #027A6A;
+}
+
+.lnr-picture{
+    color: #003470;
+}
+
+/* ABOUT US */
+
+#aboutUs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+}
+
+.workers{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+    margin-top: -3em;
+}
+
+.people{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 15em;
+}
+
+.textAboutUs{
+    display: flex;
+    font-size: 2rem;
+    color: #8A8A8A;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileBox{
+    display: flex;
+    justify-content: center;
+}
+
+.imgPerson1{
+    display: flex;
+    width: 6rem;
+    border-radius: 80px;
+}
+
+.imgPerson2{
+    display: flex;
+    width: 6rem;
+    border-radius: 80px;
+}
+
+.imgPerson3{
+    display: flex;
+    width: 6rem;
+    border-radius: 80px;
+}
+
+.profileText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 50px;
+}
+
+.personJob{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.workerName{
+    font-family: 'Fraunces', serif;
+    color: #003470;
+    margin-bottom: 5px;
+}
+
+.workJob{
+    color: #8A8A8A;
+    margin-bottom: 5em;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+/* PROYECTOS SECCIÓN */
+
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: -4px;
+}
+
+
+.imgProject{
+    width: 100%;
+}
+
+.imgProject:hover{
+    filter: brightness(50%);
+    cursor: pointer; 
+}
+
+
+
+/* PIE DE PÁGINA */
+
+footer{
+    margin: 0 auto;
+    background: #64DEB5;
+    height: 16em;
+
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.footerBox{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerBox h3{
+    margin-top: 1em;
+    font-size: 2.5em;
+    color: #027A6A;
+    cursor: pointer;
+}
+
+.footerBox p{
+    margin-top: 1em;
+    color: #027A6A;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3em;
+    
+}
+
+.social{
+    padding: 1em;
+    height: 2em;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVE WEB DESIGN */
+
+
+
+@media (max-width: 380px){
+
+    .header {
+        display: none;
+    }
+    
+    .logoName{
+        
+        display: flex;
+        justify-content: flex-start;
+        height: 100%;
+        margin-left: 5em;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        margin-left: -5em;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .menu ul li:hover{
+        color: black;
+        background: none;
+    }
+
+    #secondSection {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        font-size: 10px;
+        height: 300px;
+
+    }
+
+    .rocketSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+
+    .lnr-rocket {
+        display: flex;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    #thirdSection{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        font-size: 10px;
+        height: 300px;
+    }
+
+    .lnr-earth{
+        display: flex;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .audienciaBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+
+    .audienciaText h3 {
+        font-family: 'Fraunces', 'serif';
+        font-size: 2.8em;
+    }
+
+    .diseñoText, .fotoText {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .iconBox {
+        display: flex;
+        justify-content: center;
+        margin: 2em;
+    }
+
+    .people {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        height: 10em;
+    }
+}
+
+
+
+@media (max-width: 768px){
+
+    #firstSection{
+        width: 100%;
+        height: 30em;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .namePage{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .title h2{
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        margin-top: 2em;
+        margin-right: 1em;
+    }
+
+   #down{
+       display: flex;
+       justify-content: center;
+   }
+
+   .menu{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu ul{
+        display: flex;
+        margin: 0px auto;
+    }
+
+
+    .transformaText{
+        margin: 1em;
+    }
+
+    .audienciaText{
+        margin: 1em;
+    }
+
+
+    .diseñoBox h3, 
+    .fotoBox h3 {
+        
+        font-size: 1.5em;
+
+    }
+
+    .iconBox {
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+
+    #aboutUs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .workers {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 1em;
+    }
+
+
+    .personJob {
+        margin: 1em;
+
+    }
+
+    .footerBox h3 {
+        margin-top: 1em;
+        font-size: 2em;
+        color: #027A6A;
+        cursor: pointer;
+
+    }
+
+  
+}
+
+@media (max-width: 907px){
+
+    .transformaText{
+        margin: 1em;
+    }
+
+    .audienciaText{
+        margin: 1em;
+    }
+
+
+    #aboutUs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .menu {
+        margin-right: 1em;
+    }
+
+    .transformaText{
+        margin: 1em;
+    }
+
+    .audienciaText{
+        margin: 1em;
+    }
+
+    #aboutUs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 1440px){
+    .menu {
+        margin-right: 1em;
+    }
+
+    .menu ul {
+        margin-top: 1em;
+        font-size: 20px;
+    }
+
+    .menu ul li:hover{
+        color: black;
+        height: 5vh;
+    }
+
+
+    .transformaText{
+        margin: 1em;
+    }
+
+    .audienciaText{
+        margin: 1em;
+    }
+
+
+
+    #aboutUs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 1920px){
+
+    h3{
+        font-size: 3em;
+    }
+
+    h2{
+        font-size: 3em;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    .menu {
+        margin-right: 1em;
+    }
+
+    .menu ul {
+        margin-top: 1em;
+        font-size: 2em;
+    }
+
+    .transformaText{
+        margin: 1em;
+    }
+
+    .audienciaText{
+        margin: 1em;
+    }
+
+   
+
+    
+
+}
