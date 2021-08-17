@@ -141,6 +141,11 @@ p{
     cursor: pointer;
 }
 
+.menu ul li:hover{
+    color: black;
+    height: 5vh;
+}
+
 /* .menu ul li:hover{
     background: whitesmoke;
     color: black;
