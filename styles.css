@@ -486,6 +486,26 @@ footer{
 
 /* RESPONSIVE WEB DESIGN */
 
+@media (max-width: 361px){
+
+
+    .namePage {
+        font-size: 1em;
+        
+    }
+
+}
+
+@media (max-width: 361px){
+
+    .iconBox {
+        display: flex;
+        justify-content: center;
+        margin: 4vh; 
+        margin-top: -1em;
+    }
+
+}
 
 
 @media (max-width: 380px){
@@ -581,7 +601,7 @@ footer{
     .iconBox {
         display: flex;
         justify-content: center;
-        margin: 2em;
+        margin: 3vh;
     }
 
     .people {
@@ -592,14 +612,101 @@ footer{
     }
 }
 
+@media (max-width: 415px){
+
+    #firstSection {
+        width: 100%;
+        height: 25em;
+    }
+
+    .header {
+        display: none;
+    }
+    
+    .logoName{
+        
+        display: flex;
+        justify-content: flex-start;
+        height: 100%;
+        margin-left: 5em;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        margin-left: -5em;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .menu ul li:hover{
+        color: black;
+        background: none;
+    }
+
+    #secondSection {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        font-size: 10px;
+        height: 300px;
+
+    }
+
+    .rocketSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+
+    .lnr-rocket {
+        display: flex;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    #thirdSection{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        font-size: 10px;
+        height: 300px;
+    }
+
+    .lnr-earth{
+        display: flex;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .audienciaBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+    }
+
+    .audienciaText h3 {
+        font-family: 'Fraunces', 'serif';
+        font-size: 2.8em;
+    }
+
+}
 
 
 @media (max-width: 768px){
 
-    #firstSection{
-        width: 100%;
-        height: 30em;
-    }
 
     .header{
         display: grid;
@@ -725,6 +832,13 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 1281px){
+
+    .menu ul {
+        font-size: 1.5em;
     }
 }
 
